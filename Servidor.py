@@ -9,7 +9,7 @@ SS.listen ()
 print ("Bienvenido")
 print ("Servidor escuchando desde: 127.0.0.1:12345")
 while True:
-    #SC= Socket conexion MR mensaje recibido
+    #SC= Socket conexion MR mensaje recibido MR= mensaje de respuesta addr=direccion
     SC, addr=SS.accept()
     print ("Conexion entrante desde:", addr)
     
