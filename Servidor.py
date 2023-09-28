@@ -6,6 +6,7 @@ PS= 9099
 SS= socket (AF_INET, SOCK_STREAM)
 SS.bind ((DS, PS))
 SS.listen ()
+print ("Bienvenido")
 print ("Servidor escuchando desde: 127.0.0.1:12345")
 while True:
     #SC= Socket conexion MR mensaje recibido
